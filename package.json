@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "2pe-agustinafroidevaux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node .",
+    "start:dev": "nodemon -e 'js,handlebars,html' ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustFx/2PE-AgustinaFroidevaux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustFx/2PE-AgustinaFroidevaux/issues"
+  },
+  "homepage": "https://github.com/agustFx/2PE-AgustinaFroidevaux#readme",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
